@@ -1,6 +1,10 @@
-# FAANG Connector
+<p align="center">
+  <img src="client/src/assets/walrusHead.png" alt="FAANG Connector walrus logo" width="120">
+</p>
 
-> Connect top tech jobs with top tech candidates.
+<h1 align="center">FAANG Connector</h1>
+
+<p align="center"><em>Connect top tech jobs with top tech candidates.</em></p>
 
 FAANG Connector scrapes job postings from FAANG company career sites and candidate
 profiles from [SignalHire](https://www.signalhire.com/), then matches candidates to
@@ -32,6 +36,14 @@ The server owns the database, the REST API, and the scheduled web scrapers. The 
 are decoupled — the client only knows the server through the `REACT_APP_API_URL`
 environment variable — which is why each can be developed, deployed, and scaled
 independently.
+
+## Screenshots
+
+The landing page, served by the React client:
+
+<p align="center">
+  <img src="docs/screenshot-home.png" alt="FAANG Connector home page" width="800">
+</p>
 
 ## Tech stack
 
